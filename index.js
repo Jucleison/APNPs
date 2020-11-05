@@ -7,6 +7,11 @@ app.get('/',function(req,res){
 app.get('/mensagem',function(req,res){
     res.send("essa mensagem é automatica")
 })
+
+app.get('/sobre',function(req,res){
+    res.send("essa página esta sendo desenvolvida por Juan")
+})
+
 app.listen(3000,function(){
     console.log("Conexão inicializada")
 })
