@@ -12,6 +12,10 @@ app.get('/sobre',function(req,res){
     res.send("essa página esta sendo desenvolvida por Juan")
 })
 
+app.get('/Layout',function(req,res){
+    res.send("esse é o novo Layout")
+})
+
 app.listen(3000,function(){
     console.log("Conexão inicializada")
 })
